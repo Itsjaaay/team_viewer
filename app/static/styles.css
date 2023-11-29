@@ -1,0 +1,15 @@
+body {
+    background:rgb(10, 194, 0)79, 245, 181);
+    overflow: hidden;
+}
+
+.bibi{
+    border-style:groove;
+    border-color: rgb(244, 45, 45);
+    border-width: 50px;
+    
+}
+
+.don{
+    background-color:rgb(0, 255, 51);
+}
