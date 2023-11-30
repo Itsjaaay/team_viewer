@@ -16,10 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from app.views import home, to_teams, parent
+from app.views import list, to_teams, parent
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("lists", home),
+    path("", list),
     path("<str:team_num>", to_teams),
 ]

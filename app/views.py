@@ -5,7 +5,7 @@ from dataclasses import dataclass
 
 
 # Create your views here.
-def home(
+def list(
     request: HttpRequest,
 ) -> HttpResponse:
     teams = ["management", "procurement", "community", "documentation"]
